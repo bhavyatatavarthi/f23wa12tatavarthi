@@ -1,7 +1,8 @@
 var express = require('express');
 var router = express.Router();
-sum=0;
-more=0;
+
+var sum=0;
+var more=0;
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
