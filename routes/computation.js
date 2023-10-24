@@ -8,11 +8,11 @@ router.get('/', function(req, res, next) {
     y =rand;
   }
 
-    a=math.pow(rand,rand);
-    b= math.copysign(rand, rand).toFixed(2);
-    c=math.tanh(rand).toFixed(2);
-    d=math.trunc(rand);
-    res.send(`Math.cos(${y,y}): ${a} Math.copysign(${y,y}) is: ${b} Math.tanh(${y}) is : ${c} math.trunc(${y})`);
+    a=Math.pow(rand,rand);
+    b= Math.sign(rand).toFixed(2);
+    c=Math.tanh(rand).toFixed(2);
+    d=Math.trunc(rand);
+    res.send(`Math.cos(${y,y}): ${a} Math.sign(${y}) is: ${b} Math.tanh(${y}) is : ${c} math.trunc(${y})`);
   });
 
 module.exports = router;
