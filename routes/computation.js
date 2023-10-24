@@ -9,10 +9,10 @@ router.get('/', function(req, res, next) {
   }
 
     a=Math.pow(rand,rand);
-    b= Math.sign(rand).toFixed(2);
-    c=Math.tanh(rand).toFixed(2);
-    d=Math.trunc(rand);
-    res.send(`Math.pow(${y,y}): ${a} Math.sign(${y}) is: ${b} Math.tanh(${y}) is : ${c} math.trunc(${y})`);
+    b= Math.sign(y).toFixed(2);
+    c=Math.tanh(y).toFixed(2);
+    d=Math.trunc(y);
+    res.send(`Math.pow(${y,y}): ${a} Math.sign(${y}) is: ${b} Math.tanh(${y}) is : ${c} Math.trunc(${y}) is: ${d}`);
   });
 
 module.exports = router;
