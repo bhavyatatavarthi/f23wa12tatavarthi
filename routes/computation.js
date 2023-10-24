@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
     b= Math.sign(rand).toFixed(2);
     c=Math.tanh(rand).toFixed(2);
     d=Math.trunc(rand);
-    res.send(`Math.cos(${y,y}): ${a} Math.sign(${y}) is: ${b} Math.tanh(${y}) is : ${c} math.trunc(${y})`);
+    res.send(`Math.pow(${y,y}): ${a} Math.sign(${y}) is: ${b} Math.tanh(${y}) is : ${c} math.trunc(${y})`);
   });
 
 module.exports = router;
