@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
     y =rand;
   }
 
-    a=math.pow(rand,rand).toFixed(2);
+    a=math.pow(rand,rand);
     b= math.copysign(rand, rand).toFixed(2);
     c=math.tanh(rand).toFixed(2);
     d=math.trunc(rand);
